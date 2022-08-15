@@ -25,6 +25,7 @@ const App = () => {
 
 		return unsubscribe;
 	}, []);
+
 	return (
 		<Routes>
 			<Route path='/' element={<Navigation />}>
